@@ -29,6 +29,16 @@ Loen은 교회 공동체의 신앙 생활을 돕는 모바일 앱입니다.
 
 ## 아키텍처
 
+<div align="center">
+  <img src="./images/architecture.png" alt="Loen 시스템 아키텍처" width="720" />
+  <br/>
+  <sub>시스템 통신 흐름 — 클라이언트는 백엔드만 호출하고, 백엔드가 AI 서비스를 내부 토큰으로 중계</sub>
+</div>
+
+<br/>
+
+**리포지토리 관계도**
+
 ```mermaid
 flowchart LR
     App["📱 loen-frontend<br/>React Native · Expo"]
